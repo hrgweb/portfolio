@@ -6,22 +6,26 @@
     {
       "name": "github",
       "desc": "Github",
-      "url": "https://github.com/hrgweb"
+      "url": "https://github.com/hrgweb",
+      "icon": "pi pi-github"
     },
     {
       "name": "linkedin",
       "desc": "LinkedIn",
-      "url": "https://www.linkedin.com/in/hergen-roque-gamayon-5062a1184/"
+      "url": "https://www.linkedin.com/in/hergen-roque-gamayon-5062a1184/",
+      "icon": "pi pi-linkedin"
     },
     {
       "name": "resume",
       "desc": "CV | Resume",
-      "url": "https://drive.google.com/file/d/10iyyzOj8Q3UqeBs7YYNj7rK-ymt-NTBR/view"
+      "url": "https://drive.google.com/file/d/10iyyzOj8Q3UqeBs7YYNj7rK-ymt-NTBR/view",
+      "icon": "pi pi-file-pdf"
     },
     {
       "name": "gmail",
       "desc": "Gmail",
-      "url": "gamayonhergenroque.web@gmail.com"
+      "url": "gamayonhergenroque.web@gmail.com",
+      "icon": "pi pi-google"
     }
   ],
   "skills": [],

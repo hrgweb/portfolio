@@ -6,6 +6,14 @@
       <div>
         <h2>{{ info.author }}</h2>
         <span>{{ info.position_raw }}</span>
+
+        <ul>
+          <li v-for="social in info.social">
+            <a :href="social.url" target="_blank"
+              ><i :class="social.icon" style="font-size: 1.5rem"></i
+            ></a>
+          </li>
+        </ul>
       </div>
     </div>
 
@@ -43,15 +51,33 @@ import * as info from '@/data/info.json'
     margin-right: 2rem;
   }
 
-  h2,span {
+  h2,
+  span {
     margin: 0;
   }
 
   h2 {
-    padding-bottom: .5rem;
+    padding-bottom: 0.5rem;
     font-size: 30px;
     font-weight: 500;
     color: rgb(22, 28, 45);
+  }
+
+  ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    padding-top: 2rem;
+
+    li {
+      list-style: none;
+
+      a {
+        display: block;
+        color: inherit;
+        padding-right: .5rem;
+      }
+    }
   }
 }
 
