@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   primevue: {
     usePrimeVue: true,
     components: {
-      include: ['Avatar', 'Tooltip']
+      include: ['Avatar', 'Tooltip', 'Chip', 'Galleria', 'Image']
     },
     options: {
       ripple: true

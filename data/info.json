@@ -28,6 +28,42 @@
       "icon": "pi pi-google"
     }
   ],
-  "skills": [],
-  "portfolios": []
+  "skills": [
+    "laravel",
+    "nuxt",
+    "vue",
+    "typescript",
+    "mysql",
+    "php",
+    "primevue",
+    "restful api",
+    "git | github | bitbucket",
+    "nodejs",
+    "laravel: sail | horizon | breeze | sanctum | telescope and etc",
+    "digitalocean: app platform | droplets | storage | networking & dns configurations and etc",
+    "aws amplify | s3 bucket | route53 | ec2",
+    "dns: godaddy",
+    "3rd party integration: twilio | sendgrid | zapier | ipapi | vimeo | kartra | everwebinar | wordai | copyscape | textgears | dropbox and etc",
+    "responsive design",
+    "marketing platforms: facebook pixel helper and conversions api | google tag manager & google ads",
+    "ui component: primevue | vuetify | element ui",
+    "project management: trello | zoho | unfuddle"
+  ],
+  "projects": [
+    {
+      "key": "abundance",
+      "name": "Abundance Tracker",
+      "thumbnail": "/portfolio/abundancetracker/at-product.PNG"
+    },
+    {
+      "key": "webclassai",
+      "name": "Webclass AI",
+      "thumbnail": "/portfolio/webclassai/lp-oneclick.PNG"
+    },
+    {
+      "key": "botwebinar",
+      "name": "Bot Webinar",
+      "thumbnail": "/portfolio/botwebinar/ty.PNG"
+    }
+  ]
 }
