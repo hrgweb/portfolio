@@ -1,0 +1,29 @@
+{
+  "author": "Hergen Roque Gamayon",
+  "position": "Full Stack Developer",
+  "position_raw": "Full Stack Developer - Laravel | Nuxt | Vue | Typescript",
+  "social": [
+    {
+      "name": "github",
+      "desc": "Github",
+      "url": "https://github.com/hrgweb"
+    },
+    {
+      "name": "linkedin",
+      "desc": "LinkedIn",
+      "url": "https://www.linkedin.com/in/hergen-roque-gamayon-5062a1184/"
+    },
+    {
+      "name": "resume",
+      "desc": "CV | Resume",
+      "url": "https://drive.google.com/file/d/10iyyzOj8Q3UqeBs7YYNj7rK-ymt-NTBR/view"
+    },
+    {
+      "name": "gmail",
+      "desc": "Gmail",
+      "url": "gamayonhergenroque.web@gmail.com"
+    }
+  ],
+  "skills": [],
+  "portfolios": []
+}

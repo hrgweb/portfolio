@@ -1,5 +1,12 @@
 <template>
   <div>
-    <NuxtWelcome />
+    <portfolio/>
   </div>
 </template>
+
+<style>
+html,body {
+  margin: 0;
+  height: 100%;
+}
+</style>
