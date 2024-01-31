@@ -36,6 +36,8 @@
     "mysql",
     "php",
     "primevue",
+    "vuetify",
+    "element ui",
     "restful api",
     "git",
     "github",
@@ -51,11 +53,10 @@
     "digital storage",
     "laravel networking",
     "aws amplify",
-    "aws s3",
-    "aws bucket",
+    "aws s3 bucket",
     "aws route53",
     "aws ec2",
-    "dns: godaddy",
+    "godaddy",
     "twilio",
     "sendgrid",
     "zapier",
@@ -72,9 +73,7 @@
     "facebook conversions api",
     "google tag manager",
     "google ads",
-    "primevue",
-    "vuetify",
-    "element ui",
+
     "trello",
     "zoho",
     "unfuddle"
@@ -83,17 +82,20 @@
     {
       "key": "abundance",
       "name": "Abundance Tracker",
-      "thumbnail": "/portfolio/abundancetracker/at-product.PNG"
+      "thumbnail": "/portfolio/abundancetracker/at-product.PNG",
+      "url": "https://www.abundancetracker.com"
     },
     {
       "key": "webclassai",
       "name": "Webclass AI",
-      "thumbnail": "/portfolio/webclassai/lp-oneclick.PNG"
+      "thumbnail": "/portfolio/webclassai/lp-oneclick.PNG",
+      "url": "https://webclass.ai"
     },
     {
       "key": "botwebinar",
       "name": "Bot Webinar",
-      "thumbnail": "/portfolio/botwebinar/ty.PNG"
+      "thumbnail": "/portfolio/botwebinar/ty.PNG",
+      "url": "https://botwebinar.com"
     }
   ]
 }

@@ -41,7 +41,7 @@
                 width="250"
                 @click="openProject(project.key)"
               />
-              <h4>{{ project.name }}</h4>
+              <a :href="project.url" target="_blank" style="display: block; color: inherit; text-decoration: none; padding: 0.8em 0 0">{{ project.name }}</a>
             </div>
           </div>
           <Galleria
