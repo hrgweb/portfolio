@@ -14,8 +14,10 @@
 
 <style lang="scss" scoped>
 .header {
-  background: url('/bg.webp') center center;
+  background: url('/bg.webp') center center no-repeat;
   background-color: #2f55d4 !important;
-  height: 220px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
 }
 </style>
