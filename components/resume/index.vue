@@ -9,7 +9,7 @@
 
         <ul>
           <li v-for="social in info.social">
-            <a :href="social.url" target="_blank"
+            <a v-tooltip.top="social.desc" :href="social.url" target="_blank"
               ><i :class="social.icon" style="font-size: 1.5rem"></i
             ></a>
           </li>
@@ -67,7 +67,7 @@ import * as info from '@/data/info.json'
     display: flex;
     padding: 0;
     margin: 0;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
 
     li {
       list-style: none;

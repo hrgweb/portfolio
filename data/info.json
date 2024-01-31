@@ -4,10 +4,10 @@
   "position_raw": "Full Stack Developer - Laravel | Nuxt | Vue | Typescript",
   "social": [
     {
-      "name": "github",
-      "desc": "Github",
-      "url": "https://github.com/hrgweb",
-      "icon": "pi pi-github"
+      "name": "resume",
+      "desc": "Resume",
+      "url": "https://drive.google.com/file/d/10iyyzOj8Q3UqeBs7YYNj7rK-ymt-NTBR/view",
+      "icon": "pi pi-file-pdf"
     },
     {
       "name": "linkedin",
@@ -16,15 +16,15 @@
       "icon": "pi pi-linkedin"
     },
     {
-      "name": "resume",
-      "desc": "CV | Resume",
-      "url": "https://drive.google.com/file/d/10iyyzOj8Q3UqeBs7YYNj7rK-ymt-NTBR/view",
-      "icon": "pi pi-file-pdf"
+      "name": "github",
+      "desc": "Github",
+      "url": "https://github.com/hrgweb",
+      "icon": "pi pi-github"
     },
     {
       "name": "gmail",
       "desc": "Gmail",
-      "url": "gamayonhergenroque.web@gmail.com",
+      "url": "mailto: gamayonhergenroque.web@gmail.com",
       "icon": "pi pi-google"
     }
   ],
