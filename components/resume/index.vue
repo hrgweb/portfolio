@@ -19,49 +19,53 @@
 
     <div class="resume-wrapper">
       <div class="resume-sidebar">
-        <h3>Skills</h3>
-
-        <div class="skills">
-          <template v-for="skill in info.skills">
-            <Chip :label="skill" icon="pi pi-apple" />
-          </template>
-        </div>
+        <!-- content here -->
       </div>
 
       <div class="resume-content">
-        <h3>Portfolio</h3>
-
-        <div class="projects">
-          <div v-for="project in info.projects" class="item">
-            <Image
-              :src="project.thumbnail"
-              :alt="project.name"
-              width="250"
-              @click="openProject(project.key)"
-            />
-            <h4>{{ project.name }}</h4>
+        <div class="portfolio">
+          <h3>Portfolio</h3>
+          <div class="projects">
+            <div v-for="project in info.projects" class="item">
+              <Image
+                :src="project.thumbnail"
+                :alt="project.name"
+                width="250"
+                @click="openProject(project.key)"
+              />
+              <h4>{{ project.name }}</h4>
+            </div>
           </div>
+          <Galleria
+            v-model:visible="dialogProject"
+            :value="images"
+            :responsiveOptions="responsiveOptions"
+            :numVisible="9"
+            containerStyle="max-width: 90%"
+            :circular="true"
+            :fullScreen="true"
+            :showItemNavigators="true"
+            :showThumbnails="false"
+          >
+            <template #item="slotProps">
+              <img
+                :src="slotProps.item.src"
+                :alt="slotProps.item.title"
+                style="width: 100%; display: block"
+              />
+            </template>
+          </Galleria>
         </div>
 
-        <Galleria
-          v-model:visible="dialogProject"
-          :value="images"
-          :responsiveOptions="responsiveOptions"
-          :numVisible="9"
-          containerStyle="max-width: 90%"
-          :circular="true"
-          :fullScreen="true"
-          :showItemNavigators="true"
-          :showThumbnails="false"
-        >
-          <template #item="slotProps">
-            <img
-              :src="slotProps.item.src"
-              :alt="slotProps.item.title"
-              style="width: 100%; display: block"
-            />
-          </template>
-        </Galleria>
+        <div class="skills">
+          <h3>Skills</h3>
+
+          <div class="skills">
+            <template v-for="skill in info.skills">
+              <Chip :label="skill" icon="pi pi-apple" />
+            </template>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -168,15 +172,6 @@ function openProject(projectName: string) {
   width: 320px;
   max-width: 320px;
   border-right: 1px solid #e0e4e9;
-
-  .p-chip {
-    margin-right: 0.3rem;
-    margin-top: 0.3rem;
-  }
-
-  .p-chip-text {
-    text-transform: capitalize;
-  }
 }
 
 .resume-content {
@@ -194,7 +189,19 @@ function openProject(projectName: string) {
       cursor: pointer;
       border-radius: 6px;
       border: 1px solid #e3e3e3;
+      height: 180px;
     }
+  }
+}
+
+.skills {
+  .p-chip {
+    margin-right: 0.3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .p-chip-text {
+    text-transform: capitalize;
   }
 }
 </style>
