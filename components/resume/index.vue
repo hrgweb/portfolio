@@ -19,7 +19,15 @@
 
     <div class="resume-wrapper">
       <div class="resume-sidebar">
-        <!-- content here -->
+        <div class="skills">
+          <h3>Skills</h3>
+
+          <div class="skills">
+            <template v-for="skill in info.skills">
+              <Chip :label="skill" icon="pi pi-bolt" />
+            </template>
+          </div>
+        </div>
       </div>
 
       <div class="resume-content">
@@ -55,16 +63,6 @@
               />
             </template>
           </Galleria>
-        </div>
-
-        <div class="skills">
-          <h3>Skills</h3>
-
-          <div class="skills">
-            <template v-for="skill in info.skills">
-              <Chip :label="skill" icon="pi pi-apple" />
-            </template>
-          </div>
         </div>
       </div>
     </div>
