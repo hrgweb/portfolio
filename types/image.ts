@@ -1,6 +1,6 @@
 type Image = {
   src: string
-  thumbnail: string
+  thumbnail?: string
   title: string
 }
 

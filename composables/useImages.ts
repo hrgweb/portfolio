@@ -44,12 +44,34 @@ const ABUNDANCE = [
   }
 ] as Image[]
 
+const WEBCLASSAI_PATH = '/portfolio/webclassai'
+const WEBCLASSAI = [
+  {
+    src: `${WEBCLASSAI_PATH}/lp-oneclick.PNG`,
+    thumbnail: '',
+    title: 'Landing Page - One Click'
+  },
+  {
+    src: `${WEBCLASSAI_PATH}/lp-registration.PNG`,
+    thumbnail: '',
+    title: 'Landing Page - Registration'
+  },
+  {
+    src: `${WEBCLASSAI_PATH}/ty.PNG`,
+    thumbnail: '',
+    title: 'Thank You Page'
+  }
+]
+
 export default function (selectedProject: string): Image[] {
   const result = []
 
   switch (selectedProject) {
     case 'abundance':
       result.push(...ABUNDANCE)
+      break
+    case 'webclassai':
+      result.push(...WEBCLASSAI)
       break
 
     default:
