@@ -1,8 +1,4 @@
-type Image = {
-  src: string
-  thumbnail: string
-  title: string
-}
+import type { Image } from '@/types/image'
 
 const ABUNDANCE_PATH = '/portfolio/abundancetracker'
 const ABUNDANCE = [

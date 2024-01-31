@@ -69,28 +69,10 @@
 
 <script setup lang="ts">
 import * as info from '@/data/info.json'
-
-const abundance = computed(() => '/portfolio/abundancetracker')
+import type { Image } from '@/types/image'
 
 const dialogProject = ref(false)
-const images = ref([
-  // {
-  //   itemImageSrc:
-  //     'https://primefaces.org/cdn/primevue/images/galleria/galleria1.jpg',
-  //   thumbnailImageSrc:
-  //     'https://primefaces.org/cdn/primevue/images/galleria/galleria1s.jpg',
-  //   alt: 'Description for Image 1',
-  //   title: 'Title '
-  // },
-  // {
-  //   itemImageSrc:
-  //     'https://primefaces.org/cdn/primevue/images/galleria/galleria2.jpg',
-  //   thumbnailImageSrc:
-  //     'https://primefaces.org/cdn/primevue/images/galleria/galleria2s.jpg',
-  //   alt: 'Description for Image 2',
-  //   title: 'Title 2'
-  // }
-])
+const images = ref<Image[]>([])
 const responsiveOptions = ref([
   {
     breakpoint: '1500px',
