@@ -63,6 +63,25 @@ const WEBCLASSAI = [
   }
 ]
 
+const BOTWEBINAR_PATH = '/portfolio/botwebinar'
+const BOTWEBINAR = [
+  {
+    src: `${BOTWEBINAR_PATH}/lp.PNG`,
+    thumbnail: '',
+    title: 'Landing Page'
+  },
+  {
+    src: `${BOTWEBINAR_PATH}/lp-registration.PNG`,
+    thumbnail: '',
+    title: 'Landing Page - Registration'
+  },
+  {
+    src: `${BOTWEBINAR_PATH}/ty.PNG`,
+    thumbnail: '',
+    title: 'Thank You Page'
+  }
+]
+
 export default function (selectedProject: string): Image[] {
   const result = []
 
@@ -73,9 +92,9 @@ export default function (selectedProject: string): Image[] {
     case 'webclassai':
       result.push(...WEBCLASSAI)
       break
-
-    default:
-      break
+    case 'botwebinar':
+      result.push(...BOTWEBINAR)
+      break;
   }
 
   return result
