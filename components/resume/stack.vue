@@ -232,4 +232,14 @@ svg {
 .aws {
   font-size: 2.3rem;
 }
+
+@media (max-width: 560px) {
+  .stack {
+    .list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
 </style>
