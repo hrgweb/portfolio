@@ -257,5 +257,33 @@ function openProject(projectName: string) {
     flex-direction: column-reverse;
     width: 100%;
   }
+
+  .portfolio {
+    h3 {
+      text-align: center;
+    }
+  }
+
+.resume-content {
+  padding: 0 1rem;
+
+  .projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .item {
+      padding-right: 0;
+      width: 80%;
+      margin-bottom: 2rem;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
 }
 </style>
