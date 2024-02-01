@@ -349,8 +349,23 @@ function openProject(projectName: string) {
     flex-direction: row;
   }
 
+  .projects {
+    .item:last-child {
+      margin-right: 0;
+      padding-right: 0;
+    }
+  }
+
   .resume-sidebar {
     width: 320px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .resume {
+    width: 1220px;
+    max-width: 1220px;
+    margin: auto;
   }
 }
 </style>
