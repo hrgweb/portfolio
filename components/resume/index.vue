@@ -41,7 +41,17 @@
                 width="250"
                 @click="openProject(project.key)"
               />
-              <a :href="project.url" target="_blank" style="display: block; color: inherit; text-decoration: none; padding: 0.8em 0 0">{{ project.name }}</a>
+              <a
+                :href="project.url"
+                target="_blank"
+                style="
+                  display: block;
+                  color: inherit;
+                  text-decoration: none;
+                  padding: 0.8em 0 0;
+                "
+                >{{ project.name }}</a
+              >
             </div>
           </div>
           <Galleria
@@ -64,6 +74,8 @@
             </template>
           </Galleria>
         </div>
+
+        <resume-stack />
       </div>
     </div>
   </div>
@@ -107,6 +119,7 @@ function openProject(projectName: string) {
   position: relative;
   top: -7rem;
   width: 1200px;
+  max-width: 1200px;
   padding: 1.5rem 2rem;
   margin: auto;
   box-shadow: 0 0 3px rgba(60, 72, 88, 0.15) !important;
@@ -175,6 +188,10 @@ function openProject(projectName: string) {
 .resume-content {
   flex: 1;
   padding: 0 2rem;
+
+  & > div {
+    margin-bottom: 3em;
+  }
 }
 
 .projects {
