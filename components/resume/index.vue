@@ -220,7 +220,17 @@ function openProject(projectName: string) {
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 420px) {
+  .resume-header {
+    .info {
+      span {
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 560px) {
   .resume {
     margin: 0 0.6rem;
   }
