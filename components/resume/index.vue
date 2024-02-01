@@ -3,7 +3,7 @@
     <div class="resume-header">
       <Avatar image="/hrg.webp" class="mr-2" size="xlarge" shape="circle" />
 
-      <div>
+      <div class="info">
         <h2>{{ info.author }}</h2>
         <span>{{ info.position_raw }}</span>
 
@@ -217,6 +217,24 @@ function openProject(projectName: string) {
 
   .p-chip-text {
     text-transform: capitalize;
+  }
+}
+
+@media (max-width: 520px) {
+  .resume-header {
+    display: flex;
+    flex-direction: column;
+
+    .p-avatar {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 }
 </style>
