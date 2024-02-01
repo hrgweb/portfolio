@@ -59,7 +59,7 @@
             :value="images"
             :responsiveOptions="responsiveOptions"
             :numVisible="9"
-            containerStyle="max-width: 90%"
+            containerStyle="max-width: 80%"
             :circular="true"
             :fullScreen="true"
             :showItemNavigators="true"
