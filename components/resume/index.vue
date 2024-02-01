@@ -31,6 +31,18 @@
       </div>
 
       <div class="resume-content">
+        <div class="about">
+          <h3>About</h3>
+          <p style="text-align: justify; margin: 0">
+            Hergen is a Full Stack Developer with over 7 years of professional
+            experienced. He loves writing codes the right way. A big fan of
+            best practices and adhere to conventions. He strive to adapt the latest trends of technology to create exceptional web apps. Most of
+            his works were built from the ground up. Meticulously design and develop to cater
+            the needs of the clients. He believes that if he can make the clients
+            happy then its a win win situation.
+          </p>
+        </div>
+
         <div class="portfolio">
           <h3>Portfolio</h3>
           <div class="projects">
