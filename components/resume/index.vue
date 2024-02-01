@@ -22,7 +22,7 @@
         <div class="skills">
           <h3>Skills</h3>
 
-          <div class="skills">
+          <div class="list">
             <template v-for="skill in info.skills">
               <Chip :label="skill" icon="pi pi-bolt" />
             </template>
@@ -181,7 +181,7 @@ function openProject(projectName: string) {
 
 .resume-sidebar {
   width: 320px;
-  max-width: 320px;
+  // max-width: 320px;
   border-right: 1px solid #e0e4e9;
 }
 
@@ -292,6 +292,12 @@ function openProject(projectName: string) {
       flex-wrap: wrap;
       justify-content: center;
     }
+  }
+
+  .resume-sidebar {
+    width: 100%;
+    border-right: unset;
+    padding: 0 1rem 1rem;
   }
 }
 </style>
