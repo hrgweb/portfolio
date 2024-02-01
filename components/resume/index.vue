@@ -118,9 +118,6 @@ function openProject(projectName: string) {
   border-radius: 6px;
   position: relative;
   top: -7rem;
-  // width: 1200px;
-  // max-width: 1200px;
-  // padding: 1.5rem 2rem;
   margin: auto;
   box-shadow: 0 0 3px rgba(60, 72, 88, 0.15) !important;
   color: #8492a6;
@@ -181,7 +178,6 @@ function openProject(projectName: string) {
 
 .resume-sidebar {
   width: 320px;
-  // max-width: 320px;
   border-right: 1px solid #e0e4e9;
 }
 
@@ -341,6 +337,13 @@ function openProject(projectName: string) {
     border-right: unset;
     padding: 0 2rem 1rem;
   }
+
+  .projects {
+    .item:last-child {
+      margin-right: 0;
+      padding-right: 0;
+    }
+  }
 }
 
 @media (min-width: 1024px) {
@@ -358,6 +361,7 @@ function openProject(projectName: string) {
 
   .resume-sidebar {
     width: 320px;
+    border-right: 1px solid #e0e4e9;
   }
 }
 
