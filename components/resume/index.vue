@@ -334,7 +334,6 @@ function openProject(projectName: string) {
 
       .item {
         margin-right: 1rem;
-        margin-bottom: 2rem;
       }
     }
   }
