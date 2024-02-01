@@ -14,11 +14,13 @@
         </div>
         <div class="item-info">
           <h5>{{ item.position }}</h5>
-          <span>{{ item.yrsStr }}</span>
           <span
-            ><a style="color: rgb(39, 99, 209)">{{ item.company }}</a> @{{
-              item.address
-            }}</span
+            >{{ item.yrsStr }}
+            <small>({{ `${item.dateStart} - ${item.dateEnd}` }})</small></span
+          >
+          <span
+            ><a style="color: rgb(39, 99, 209)">{{ item.company }}</a> @
+            <small>{{ item.address }}</small></span
           >
         </div>
       </div>

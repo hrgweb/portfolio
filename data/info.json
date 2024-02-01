@@ -107,7 +107,7 @@
       "dateStart": "Jan 2002",
       "dateEnd": "Dec 2023",
       "address": "Phoenix, Arizona, US",
-      "yrsStr": "2 years"
+      "yrsStr": "2yrs"
     },
     {
       "avatar": "remote.webp",
@@ -116,7 +116,7 @@
       "dateStart": "Mar 2021",
       "dateEnd": "Dec 2021",
       "address": "Quezon City, PH",
-      "yrsStr": "10 months"
+      "yrsStr": "10mos"
     },
     {
       "avatar": "bnb.webp",
@@ -125,7 +125,7 @@
       "dateStart": "Jan 2018",
       "dateEnd": "Feb 2021",
       "address": "Pennsylvania, US",
-      "yrsStr": "3 years & 2 months"
+      "yrsStr": "3yrs & 2mos"
     },
     {
       "avatar": "connexion.webp",
@@ -134,7 +134,7 @@
       "dateStart": "Jul 2017",
       "dateEnd": "Dec 2017",
       "address": "Miami, US",
-      "yrsStr": "6 months"
+      "yrsStr": "6mos"
     },
     {
       "avatar": "",
@@ -143,7 +143,7 @@
       "dateStart": "Jul 2016",
       "dateEnd": "Jul 2017",
       "address": "Cagayan De Oro City, PH",
-      "yrsStr": "1 year & 1 month"
+      "yrsStr": "1yr & 1mo"
     },
     {
       "avatar": "",
@@ -152,7 +152,7 @@
       "dateStart": "Apr 2015",
       "dateEnd": "May 2016",
       "address": "Cebu, PH",
-      "yrsStr": "1 year & 2 months"
+      "yrsStr": "1yr & 2mos"
     },
     {
       "avatar": "",
@@ -161,7 +161,7 @@
       "dateStart": "Oct 2013",
       "dateEnd": "Mar 2014",
       "address": "Cagayan De Oro City, PH",
-      "yrsStr": "6 months"
+      "yrsStr": "6mos"
     }
   ]
 }
