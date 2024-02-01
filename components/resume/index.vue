@@ -118,9 +118,9 @@ function openProject(projectName: string) {
   border-radius: 6px;
   position: relative;
   top: -7rem;
-  width: 1200px;
-  max-width: 1200px;
-  padding: 1.5rem 2rem;
+  // width: 1200px;
+  // max-width: 1200px;
+  // padding: 1.5rem 2rem;
   margin: auto;
   box-shadow: 0 0 3px rgba(60, 72, 88, 0.15) !important;
   color: #8492a6;
@@ -221,9 +221,15 @@ function openProject(projectName: string) {
 }
 
 @media (max-width: 520px) {
+  .resume {
+    margin: 0 .6rem;
+  }
+
   .resume-header {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    padding-top: 2rem;
 
     .p-avatar {
       margin-right: 0;
@@ -234,7 +240,22 @@ function openProject(projectName: string) {
       display: flex;
       flex-direction: column;
       align-items: center;
+      width: 100%;
+
+      h2 {
+        font-size: 1.7rem;
+      }
+
+      span {
+        font-size: 0.9rem;
+      }
     }
+  }
+
+  .resume-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
   }
 }
 </style>

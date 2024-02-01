@@ -19,5 +19,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 250px;
+  width: 100%;
 }
 </style>
