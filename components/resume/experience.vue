@@ -90,4 +90,13 @@ import * as info from '@/data/info.json'
 .avatar {
   padding-right: 1.3rem;
 }
+
+@media (max-width: 560px) {
+  .item {
+    flex-basis: unset;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
 </style>
