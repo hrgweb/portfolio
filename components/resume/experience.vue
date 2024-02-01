@@ -25,6 +25,11 @@
         </div>
       </div>
     </div>
+
+    <!-- Open resume -->
+    <p style="text-align: center; color: rgb(39, 99, 209); margin: 1em 0 0">
+      <a :href="info.social[0]?.url" target="_blank">See more...</a>
+    </p>
   </div>
 </template>
 
