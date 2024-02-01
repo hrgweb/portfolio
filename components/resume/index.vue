@@ -342,4 +342,15 @@ function openProject(projectName: string) {
     padding: 0 2rem 1rem;
   }
 }
+
+@media (min-width: 1024px) {
+  .resume-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .resume-sidebar {
+    width: 320px;
+  }
+}
 </style>
