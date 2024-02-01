@@ -222,7 +222,7 @@ function openProject(projectName: string) {
 
 @media (max-width: 520px) {
   .resume {
-    margin: 0 .6rem;
+    margin: 0 0.6rem;
   }
 
   .resume-header {
@@ -264,26 +264,34 @@ function openProject(projectName: string) {
     }
   }
 
-.resume-content {
-  padding: 0 1rem;
+  .resume-content {
+    padding: 0 1rem;
 
-  .projects {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    .projects {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
 
-    .item {
-      padding-right: 0;
-      width: 80%;
-      margin-bottom: 2rem;
+      .item {
+        padding-right: 0;
+        width: 80%;
+        margin-bottom: 2rem;
 
-      img {
-        width: 100%;
+        img {
+          width: 100%;
+        }
       }
     }
   }
-}
+
+  .stack {
+    .list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
 }
 </style>

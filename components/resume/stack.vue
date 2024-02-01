@@ -201,7 +201,7 @@
   align-items: center;
 
   & > div {
-    margin-right: 0.4rem;
+    margin-right: 1rem;
   }
 }
 
