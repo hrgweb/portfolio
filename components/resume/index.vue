@@ -310,4 +310,36 @@ function openProject(projectName: string) {
     padding: 0 1rem 1rem;
   }
 }
+
+@media (min-width: 768px) {
+  .resume {
+    margin: 0 1.5rem;
+  }
+
+  .resume-header {
+    margin: 1rem;
+    padding: 2rem 1rem;
+  }
+
+  .resume-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+
+    .projects {
+      flex-wrap: wrap;
+
+      .item {
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  .resume-sidebar {
+    width: 100%;
+    border-right: unset;
+    padding: 0 2rem 1rem;
+  }
+}
 </style>
