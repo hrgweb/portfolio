@@ -99,10 +99,22 @@ import * as info from '@/data/info.json'
     margin-bottom: 1rem;
   }
 }
+
 @media (min-width: 768px) {
-  .item:nth-child(2n + 2) {
-    margin-right: 0;
-    flex-basis: 50%;
+  .item {
+    &:nth-child(2n + 2) {
+      margin-right: 0;
+      flex-basis: 50%;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .item {
+    &:nth-child(2n + 2) {
+      margin-right: 0;
+      flex-basis: 50%;
+    }
   }
 }
 </style>
