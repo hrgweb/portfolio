@@ -98,5 +98,70 @@
       "thumbnail": "/portfolio/botwebinar/ty.PNG",
       "url": "https://botwebinar.com"
     }
+  ],
+  "experience": [
+    {
+      "avatar": "botbuilders.webp",
+      "company": "BotBuilders",
+      "position": "Full Stack Developer",
+      "dateStart": "Jan 2002",
+      "dateEnd": "Dec 2023",
+      "address": "Phoenix, Arizona, US",
+      "yrsStr": "2 years"
+    },
+    {
+      "avatar": "remote.webp",
+      "company": "Remote Philippines",
+      "position": "Full Stack Developer",
+      "dateStart": "Mar 2021",
+      "dateEnd": "Dec 2021",
+      "address": "Quezon City, PH",
+      "yrsStr": "10 months"
+    },
+    {
+      "avatar": "bnb.webp",
+      "company": "Bnb Financials",
+      "position": "Full Stack Developer",
+      "dateStart": "Jan 2018",
+      "dateEnd": "Feb 2021",
+      "address": "Pennsylvania, US",
+      "yrsStr": "3 years & 2 months"
+    },
+    {
+      "avatar": "connexion.webp",
+      "company": "Connexion Solutions",
+      "position": "Web Developer",
+      "dateStart": "Jul 2017",
+      "dateEnd": "Dec 2017",
+      "address": "Miami, US",
+      "yrsStr": "6 months"
+    },
+    {
+      "avatar": "",
+      "company": "RDTI Soft Dev",
+      "position": "Web Developer",
+      "dateStart": "Jul 2016",
+      "dateEnd": "Jul 2017",
+      "address": "Cagayan De Oro City, PH",
+      "yrsStr": "1 year & 1 month"
+    },
+    {
+      "avatar": "",
+      "company": "Programmer",
+      "position": "POS World Philippines Inc",
+      "dateStart": "Apr 2015",
+      "dateEnd": "May 2016",
+      "address": "Cebu, PH",
+      "yrsStr": "1 year & 2 months"
+    },
+    {
+      "avatar": "",
+      "company": "Bluenote Software Solutions",
+      "position": "Intern",
+      "dateStart": "Oct 2013",
+      "dateEnd": "Mar 2014",
+      "address": "Cagayan De Oro City, PH",
+      "yrsStr": "6 months"
+    }
   ]
 }

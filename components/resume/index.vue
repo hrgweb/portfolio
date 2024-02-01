@@ -35,13 +35,16 @@
           <h3>About</h3>
           <p style="text-align: justify; margin: 0">
             Hergen is a Full Stack Developer with over 7 years of professional
-            experienced. He loves writing codes the right way. A big fan of
-            best practices and adhere to conventions. He strive to adapt the latest trends of technology to create exceptional web apps. Most of
-            his works were built from the ground up. Meticulously design and develop to cater
-            the needs of the clients. He believes that if he can make the clients
-            happy then its a win win situation.
+            experienced. He loves writing codes the right way. A big fan of best
+            practices and adhere to conventions. He strive to adapt the latest
+            trends of technology to create exceptional web apps. Most of his
+            works were built from the ground up. Meticulously design and develop
+            to cater the needs of the clients. He believes that if he can make
+            the clients happy then its a win win situation.
           </p>
         </div>
+
+        <resume-experience />
 
         <div class="portfolio">
           <h3>Portfolio</h3>
@@ -301,14 +304,6 @@ function openProject(projectName: string) {
           width: 100%;
         }
       }
-    }
-  }
-
-  .stack {
-    .list {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
     }
   }
 
