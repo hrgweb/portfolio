@@ -1,6 +1,6 @@
 <template>
   <div>
-    <messenger />
+    <!-- <messenger /> -->
     <portfolio />
   </div>
 </template>
