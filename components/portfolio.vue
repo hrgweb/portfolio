@@ -7,6 +7,9 @@
     </div>
 
     <div class="footer"></div>
+
+    <!-- Messenger -->
+    <messenger />
   </div>
 </template>
 
