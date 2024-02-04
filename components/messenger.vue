@@ -25,20 +25,16 @@ useHead({
   ]
 })
 
-console.log('facebook: ', window?.FB)
-
 onMounted(() => init())
 
 function init() {
-  console.log('start na')
-
   const chatbox = document.getElementById(
     'fb-customer-chat'
   ) as HTMLDivElement | null
   chatbox?.setAttribute('page_id', '104815385052792')
   chatbox?.setAttribute('attribution', 'biz_inbox')
 
-  console.log('chatbox: ', chatbox);
+  console.log('chatbox: ', chatbox)
 
   window.fbAsyncInit = function () {
     window.FB.init({
