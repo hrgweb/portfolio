@@ -1,6 +1,6 @@
 <template>
   <div class="contact" id="hire">
-    <h3>Send a message or ping me via</h3>
+    <h3>Send a message or ping via</h3>
 
     <div class="items">
       <div v-for="item in info.contact" class="item" :class="item.key">

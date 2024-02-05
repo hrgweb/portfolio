@@ -21,4 +21,8 @@
   height: 250px;
   width: 100%;
 }
+
+.footer {
+  padding-bottom: 34rem;
+}
 </style>
