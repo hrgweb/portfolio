@@ -3,6 +3,7 @@
     <!-- Gmail -->
     <template v-if="id === 'gmail'">
       <svg
+        class="gmail"
         xmlns="http://www.w3.org/2000/svg"
         width="1.33em"
         height="1em"
@@ -34,6 +35,7 @@
     <!-- Skype -->
     <template v-if="id === 'skype'">
       <svg
+        class="skype"
         xmlns="http://www.w3.org/2000/svg"
         width="1em"
         height="1em"
@@ -146,4 +148,12 @@ defineProps({
 })
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped>
+svg {
+  font-size: 3em;
+}
+
+svg.gmail {
+  font-size: 2.3em;
+}
+</style>
