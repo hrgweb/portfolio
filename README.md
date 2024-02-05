@@ -1,10 +1,10 @@
 # My portfolio site
 
-[Click this](https://gamayonhergenroque.netlify.app) to see my portfolio.
+[Click here](https://gamayonhergenroque.netlify.app) to see my portfolio.
 
 ### Tech stack used:
 
-Nuxt3, Vue3 and Typescript
+Nuxt3, Vue3, Typescript and Primevue(UI Component)
 
 ### Hosting Provider
 
