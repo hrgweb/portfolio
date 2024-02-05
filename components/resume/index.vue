@@ -45,9 +45,7 @@
         </div>
 
         <resume-experience />
-
         <resume-project />
-
         <resume-stack />
       </div>
     </div>
