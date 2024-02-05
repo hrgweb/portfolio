@@ -41,6 +41,7 @@ import * as info from '@/data/info.json'
   border-radius: 6px;
   box-shadow: 0 0 3px rgba(60, 72, 88, 0.15) !important;
   color: #fff;
+  width: 100%;
 
   &:last-child {
     margin-right: 0;
@@ -83,13 +84,17 @@ import * as info from '@/data/info.json'
 @media (max-width: 420px) {
   .contact {
     .item {
-      width: 100%;
       font-size: .7rem;
     }
   }
 }
 
 @media (max-width: 560px) {
+  .contact {
+    .item {
+      font-size: .9rem;
+    }
+  }
 }
 
 @media (min-width: 768px) {
