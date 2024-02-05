@@ -1,6 +1,6 @@
 <template>
-  <div class="contact">
-    <h3>Contact</h3>
+  <div class="contact" id="hire">
+    <h3>Send a message or ping me via</h3>
 
     <div class="items">
       <div v-for="item in info.contact" class="item" :class="item.key">
@@ -24,6 +24,12 @@ import * as info from '@/data/info.json'
 .contact {
   display: flex;
   flex-direction: column;
+  margin-top: 5rem;
+
+  h3 {
+    text-align: center;
+    font-size: 2rem;
+  }
 }
 
 .items {

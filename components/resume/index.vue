@@ -40,7 +40,7 @@
             trends of technology to create exceptional web apps. Most of his
             works were built from the ground up. Meticulously design and develop
             to cater the needs of the clients. He believes that if he can make
-            the clients happy then its a win win situation.
+            the clients happy then its a win win situation. Wanna <a href="#hire">hire me</a>?
           </p>
         </div>
 
