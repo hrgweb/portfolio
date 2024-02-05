@@ -28,15 +28,14 @@ import * as info from '@/data/info.json'
 
 .items {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .item {
   display: flex;
   flex-basis: 45%;
   align-items: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: .5rem;
   margin-right: 1.5rem;
   padding: 1rem;
   border-radius: 6px;
@@ -79,6 +78,15 @@ import * as info from '@/data/info.json'
 
 .avatar {
   padding-right: 1.3rem;
+}
+
+@media (max-width: 420px) {
+  .contact {
+    .item {
+      width: 100%;
+      font-size: .7rem;
+    }
+  }
 }
 
 @media (max-width: 560px) {
