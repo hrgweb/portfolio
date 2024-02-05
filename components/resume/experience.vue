@@ -28,7 +28,9 @@
 
     <!-- Open resume -->
     <p style="text-align: center; color: rgb(39, 99, 209); margin: 1em 0 0">
-      <a :href="info.social[0]?.url" target="_blank">See more...</a>
+      <a class="seemore" :href="info.social[0]?.url" target="_blank"
+        >See more...</a
+      >
     </p>
   </div>
 </template>
@@ -38,6 +40,23 @@ import * as info from '@/data/info.json'
 </script>
 
 <style lang="scss" scoped>
+$linkPrimaryColor: rgb(39, 99, 209);
+a.seemore {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:active,
+  &:link,
+  &:visited {
+    color: $linkPrimaryColor;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .experience {
   display: flex;
   flex-direction: column;
@@ -83,12 +102,6 @@ import * as info from '@/data/info.json'
     &:last-child {
       padding-bottom: 0;
     }
-  }
-
-  a {
-    display: inline-block;
-    text-decoration: none;
-    cursor: default;
   }
 }
 
