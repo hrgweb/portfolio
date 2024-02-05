@@ -47,6 +47,7 @@
         <resume-experience />
         <resume-project />
         <resume-stack />
+        <resume-contact />
       </div>
     </div>
   </div>
@@ -123,6 +124,7 @@ import * as info from '@/data/info.json'
 .resume-sidebar {
   width: 320px;
   border-right: 1px solid #e0e4e9;
+  margin-bottom: 1em;
 }
 
 .resume-content {

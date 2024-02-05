@@ -3,25 +3,13 @@
     <h3>Contact</h3>
 
     <div class="items">
-      <div v-for="item in info.experience" class="item">
+      <div v-for="item in info.contact" class="item" :class="item.key">
         <div class="avatar">
-          <template v-if="item.avatar"
-            ><img :src="`/experience/${item.avatar}`" :alt="item.company"
-          /></template>
-          <template v-else
-            ><i class="pi pi-building" style="font-size: 2rem"></i
-          ></template>
+          <resume-contact-image :id="item.key" />
         </div>
         <div class="item-info">
-          <h5>{{ item.position }}</h5>
-          <span
-            >{{ item.yrsStr }}
-            <small>({{ `${item.dateStart} - ${item.dateEnd}` }})</small></span
-          >
-          <span
-            ><a style="color: rgb(39, 99, 209)">{{ item.company }}</a> @
-            <small>{{ item.address }}</small></span
-          >
+          <h5>{{ item.platform }}</h5>
+          <small>{{ item.email }}</small>
         </div>
       </div>
     </div>
@@ -53,6 +41,7 @@ import * as info from '@/data/info.json'
   padding: 1rem;
   border-radius: 6px;
   box-shadow: 0 0 3px rgba(60, 72, 88, 0.15) !important;
+  color: #fff;
 
   &:last-child {
     margin-right: 0;
@@ -78,6 +67,13 @@ import * as info from '@/data/info.json'
     &:last-child {
       padding-bottom: 0;
     }
+  }
+
+  &.skype {
+    background: #46c1f3;
+  }
+  &.gmail {
+    background: #ff5749;
   }
 }
 

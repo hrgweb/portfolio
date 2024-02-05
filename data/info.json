@@ -167,5 +167,17 @@
       "address": "Cagayan De Oro City, PH",
       "yrsStr": "6mos"
     }
+  ],
+  "contact": [
+    {
+      "key": "gmail",
+      "platform": "Gmail",
+      "email": "gamayonhergenroque.web@gmail.com"
+    },
+    {
+      "key": "skype",
+      "platform": "Skype",
+      "email": "gamayonhergenroque@hotmail.com"
+    }
   ]
 }
