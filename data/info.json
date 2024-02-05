@@ -43,7 +43,6 @@
     "git",
     "github",
     "bitbucket",
-    "nodejs",
     "laravel sail",
     "laravel horizon",
     "laravel breeze",
@@ -51,8 +50,8 @@
     "laravel telescope",
     "digitalocean app platform",
     "digitalocean droplets",
-    "digital storage",
-    "laravel networking",
+    "digitalocean storage",
+    "digitalocean networking",
     "aws amplify",
     "aws s3 bucket",
     "aws route53",
@@ -74,10 +73,13 @@
     "facebook conversions api",
     "google tag manager",
     "google ads",
-
     "trello",
     "zoho",
-    "unfuddle"
+    "unfuddle",
+    "nodejs",
+    "express",
+    "docker",
+    "netlify"
   ],
   "projects": [
     {
