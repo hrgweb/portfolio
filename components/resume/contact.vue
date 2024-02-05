@@ -35,7 +35,7 @@ import * as info from '@/data/info.json'
   display: flex;
   flex-basis: 45%;
   align-items: center;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   margin-right: 1.5rem;
   padding: 1rem;
   border-radius: 6px;
@@ -84,7 +84,7 @@ import * as info from '@/data/info.json'
 @media (max-width: 420px) {
   .contact {
     .item {
-      font-size: .7rem;
+      font-size: 0.7rem;
     }
   }
 }
@@ -92,12 +92,27 @@ import * as info from '@/data/info.json'
 @media (max-width: 560px) {
   .contact {
     .item {
-      font-size: .9rem;
+      font-size: 0.9rem;
     }
   }
 }
 
 @media (min-width: 768px) {
+  .items {
+    flex-direction: row;
+  }
+
+  .contact {
+    .item {
+      font-size: 0.9rem;
+      margin-right: 1rem;
+      flex: 1;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
 }
 
 @media (min-width: 1024px) {
