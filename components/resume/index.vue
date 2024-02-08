@@ -5,13 +5,12 @@
 
       <div class="info">
         <h2>{{ info.author }}</h2>
-        <span>{{ info.position_raw }}</span>
+        <resume-title/>
 
         <ul>
           <li v-for="social in info.social">
-            <a v-tooltip.top="social.desc" :href="social.url" target="_blank"
-              ><i :class="social.icon" style="font-size: 1.2rem"></i
-            ></a>
+            <a v-tooltip.top="social.desc" :href="social.url" target="_blank"><i :class="social.icon"
+                style="font-size: 1.2rem"></i></a>
           </li>
         </ul>
       </div>
@@ -131,7 +130,7 @@ import * as info from '@/data/info.json'
   flex: 1;
   padding: 0 2rem;
 
-  & > div {
+  &>div {
     margin-bottom: 3em;
   }
 }
