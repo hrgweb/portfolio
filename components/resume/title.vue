@@ -78,15 +78,15 @@
 
 <style lang="scss" scoped>
 .position {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    span {
-        padding-bottom: .6rem;
-        font-size: 1rem !important;
-    }
+  span {
+    padding-bottom: 0.6rem;
+    font-size: 1rem !important;
+  }
 
   div {
     display: flex;
@@ -104,6 +104,21 @@
 
   .vertical {
     margin: 0 0.3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .position {
+    display: flex;
+    flex-direction: row;
+
+    span {
+      padding-bottom: 0;
+    }
+
+    .vertical {
+      margin: 0 0.5rem;
+    }
   }
 }
 </style>
