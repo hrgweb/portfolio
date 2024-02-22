@@ -80,9 +80,11 @@
 .position {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     span {
-        padding-bottom: .4rem;
+        padding-bottom: .6rem;
         font-size: 1rem !important;
     }
 
