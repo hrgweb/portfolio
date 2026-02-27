@@ -19,10 +19,10 @@ import * as info from '@/data/info.json'
         <div class="avatar">
           <resume-contact-image :id="item.key" />
         </div>
-        <div class="item-info">
+        <a :href="`mailto:${item.email}`" target="_blank" class="item-info">
           <h5>{{ item.platform }}</h5>
           <small>{{ item.email }}</small>
-        </div>
+        </a>
       </div>
     </div>
   </div>
