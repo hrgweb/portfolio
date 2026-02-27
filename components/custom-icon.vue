@@ -13,6 +13,7 @@ import IconPostgresql from './shared/icon-postgres.vue'
 import IconSupabase from './shared/icon-supabase.vue'
 import IconSvelte from './shared/icon-svelte.vue'
 import IconTailwind from './shared/icon-tailwind.vue'
+import IconTanstack from './shared/icon-tanstack.vue'
 import IconTypescript from './shared/icon-typescript.vue'
 import IconVue from './shared/icon-vue.vue'
 
@@ -84,6 +85,10 @@ const props = defineProps<{
 
   <template v-else-if="name?.includes('git')">
     <IconGithub />
+  </template>
+
+  <template v-else-if="name?.includes('tanstack')">
+    <IconTanstack />
   </template>
 
   <template v-else-if="name === 'primevue'">

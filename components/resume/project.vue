@@ -17,8 +17,9 @@ const projects = ref<IProject[]>([
     tech: [
       'svelte 5',
       'sveltekit',
-      'postgresql',
+      'tanstack query',
       'drizzle orm',
+      'postgresql',
       'typescript',
       'tailwindcss',
       'docker',
