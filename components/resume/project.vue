@@ -17,8 +17,9 @@ const projects = ref<IProject[]>([
     tech: [
       'svelte 5',
       'sveltekit',
-      'postgresql',
+      'tanstack query',
       'drizzle orm',
+      'postgresql',
       'typescript',
       'tailwindcss',
       'docker',
@@ -126,7 +127,7 @@ function onDialogClose() {
     <h3 class="text-md font-medium uppercase pb-3 text-center">Portfolio</h3>
 
     <div
-      class="projects flex gap-12 lg:gap-6 flex-wrap max-w-full justify-start"
+      class="projects flex gap-12 lg:gap-6 flex-wrap max-w-full justify-center lg:justify-start"
     >
       <div
         v-for="project in projects"
