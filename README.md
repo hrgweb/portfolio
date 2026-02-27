@@ -8,4 +8,4 @@ Nuxt3, Vue3, Typescript and Primevue(UI Component)
 
 ### Hosting Provider
 
-Netlify
+Hostinger & Dokploy
