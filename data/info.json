@@ -1,0 +1,186 @@
+{
+  "author": "Hergen Roque Gamayon",
+  "position": "Full Stack Developer",
+  "position_raw": "Full Stack Developer - Laravel | Nuxt | Vue | Typescript",
+  "social": [
+    {
+      "name": "resume",
+      "desc": "Resume",
+      "url": "https://drive.google.com/file/d/1153IABEKlM6lSa165jvcOz6EwJ3rRhnS/view?usp=sharing",
+      "icon": "pi pi-file-pdf"
+    },
+    {
+      "name": "linkedin",
+      "desc": "LinkedIn",
+      "url": "https://www.linkedin.com/in/hergen-roque-gamayon-5062a1184/",
+      "icon": "pi pi-linkedin"
+    },
+    {
+      "name": "github",
+      "desc": "Github",
+      "url": "https://github.com/hrgweb",
+      "icon": "pi pi-github"
+    },
+    {
+      "name": "gmail",
+      "desc": "Gmail",
+      "url": "mailto: gamayonhergenroque.web@gmail.com",
+      "icon": "pi pi-google"
+    }
+  ],
+  "skills": [
+    "svelte",
+    "sveltekit",
+    "drizzle orm",
+    "postgresql",
+    "nuxt",
+    "vue",
+    "typescript",
+    "hostinger",
+    "hostinger firewall",
+    "hostinger dns manager",
+    "dokploy",
+    "supabase",
+    "laravel",
+    "tailwindcss",
+    "restful api",
+    "sqlite",
+    "postgresql",
+    "mysql",
+    "php",
+    "laravel forge",
+    "primevue",
+    "vuetify",
+    "element ui",
+    "git",
+    "github",
+    "bitbucket",
+    "vs code",
+    "vim",
+    "laravel sail",
+    "laravel horizon",
+    "laravel breeze",
+    "laravel sanctum",
+    "laravel telescope",
+    "digitalocean app platform",
+    "digitalocean droplets",
+    "digitalocean storage",
+    "digitalocean networking",
+    "aws amplify",
+    "aws s3 bucket",
+    "aws route53",
+    "aws ec2",
+    "ringcentral voice call, video call and sms",
+    "godaddy",
+    "twilio",
+    "sendgrid",
+    "zapier",
+    "ipapi",
+    "vimeo",
+    "kartra",
+    "everwebinar",
+    "wordai",
+    "copyscape",
+    "textgears",
+    "dropbox",
+    "responsive design",
+    "facebook pixel helper",
+    "facebook conversions api",
+    "google tag manager",
+    "google ads",
+    "trello",
+    "zoho",
+    "unfuddle",
+    "nodejs",
+    "express",
+    "docker",
+    "netlify",
+    "react",
+    "react router",
+    "shopify",
+    "shopify app developmemt",
+    "shopify app extension"
+  ],
+
+  "experience": [
+    {
+      "avatar": "",
+      "company": "Divmont LLC",
+      "position": "Full Stack Developer",
+      "dateStart": "Feb 2025",
+      "dateEnd": "Feb 2026",
+      "address": "California, US",
+      "yrsStr": "1yr"
+    },
+    {
+      "avatar": "hcgps.jpeg",
+      "company": "HealthcareGPS",
+      "position": "Full Stack Developer",
+      "dateStart": "Mar 2024",
+      "dateEnd": "Nov 2024",
+      "address": "Los Angeles, US",
+      "yrsStr": "9mos"
+    },
+    {
+      "avatar": "botbuilders.webp",
+      "company": "BotBuilders",
+      "position": "Full Stack Developer",
+      "dateStart": "Jan 2022",
+      "dateEnd": "Dec 2023",
+      "address": "Phoenix, Arizona, US",
+      "yrsStr": "2yrs"
+    },
+    {
+      "avatar": "remote.webp",
+      "company": "Remote Philippines",
+      "position": "Full Stack Developer",
+      "dateStart": "Mar 2021",
+      "dateEnd": "Dec 2021",
+      "address": "Quezon City, PH",
+      "yrsStr": "10mos"
+    },
+    {
+      "avatar": "bnb.webp",
+      "company": "Bnb Financials",
+      "position": "Full Stack Developer",
+      "dateStart": "Jan 2018",
+      "dateEnd": "Feb 2021",
+      "address": "Pennsylvania, US",
+      "yrsStr": "3yrs & 2mos"
+    },
+    {
+      "avatar": "connexion.webp",
+      "company": "Connexion Solutions",
+      "position": "Web Developer",
+      "dateStart": "Jul 2017",
+      "dateEnd": "Dec 2017",
+      "address": "Miami, US",
+      "yrsStr": "6mos"
+    },
+    {
+      "avatar": "",
+      "company": "RDTI Soft Dev",
+      "position": "Web Developer",
+      "dateStart": "Jul 2016",
+      "dateEnd": "Jul 2017",
+      "address": "Cagayan De Oro City, PH",
+      "yrsStr": "1yr & 1mo"
+    },
+    {
+      "avatar": "",
+      "company": "POS World Philippines Inc",
+      "position": "Programmer",
+      "dateStart": "Apr 2015",
+      "dateEnd": "May 2016",
+      "address": "Cebu, PH",
+      "yrsStr": "1yr & 2mos"
+    }
+  ],
+  "contact": [
+    {
+      "key": "gmail",
+      "platform": "Gmail",
+      "email": "gamayonhergenroque.web@gmail.com"
+    }
+  ]
+}
