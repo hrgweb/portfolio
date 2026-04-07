@@ -8,21 +8,23 @@ const { pdf, pages } = usePDF('/resume.pdf')
 
 <template>
   <div>
-    <div class="text-center space-x-4 py-1">
+    <div class="text-center space-x-2 py-1 pb-6">
       <button
-        class="bg-blue-500 py-1 px-3 rounded-md text-white"
+        class="bg-blue-500 py-1 px-3 rounded-md text-white text-xs"
         @click="page = page > 1 ? page - 1 : page"
       >
         Prev
       </button>
-      <span>{{ page }} / {{ pages }}</span>
+      <span class="text-sm">{{ page }} / {{ pages }}</span>
       <button
-        class="bg-blue-500 py-1 px-3 rounded-md text-white"
+        class="bg-blue-500 py-1 px-3 rounded-md text-white text-xs"
         @click="page = page < pages ? page + 1 : page"
       >
         Next
       </button>
     </div>
-    <VuePDF :pdf="pdf" :page="page" />
+    <div class="overflow-auto h-[calc(100vh-100px)]">
+      <VuePDF :pdf="pdf" :page="page" />
+    </div>
   </div>
 </template>
