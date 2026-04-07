@@ -24,6 +24,5 @@ onMounted(() => {
   <div class="lg:bg-white">
     <!-- <messenger /> -->
     <portfolio />
-    <br />
   </div>
 </template>
