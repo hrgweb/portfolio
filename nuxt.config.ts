@@ -9,5 +9,11 @@ export default defineNuxtConfig({
   image: {
     quality: 80,
     format: ['webp']
+  },
+
+  vite: {
+    server: {
+      allowedHosts: ['.ngrok-free.app']
+    }
   }
 })

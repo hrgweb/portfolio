@@ -9,13 +9,19 @@ const { name, social } = defineProps<{
   name: SocialType
   social: ISocial | null
 }>()
+
+const emit = defineEmits(['openResume'])
+
+function openResume() {
+  emit('openResume')
+}
 </script>
 
 <template>
   <div v-if="name === 'resume'">
-    <a target="_blank" :href="social?.url" v-tooltip="'Resume'">
+    <button class="pt-1" v-tooltip="'Resume'" @click="openResume">
       <IconResume class="!w-[1.8rem] !h-[1.8rem]" />
-    </a>
+    </button>
   </div>
   <div v-else-if="name === 'linkedin'">
     <a target="_blank" :href="social?.url" v-tooltip="'Linkedin'">
