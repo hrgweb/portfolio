@@ -4,7 +4,7 @@
 
 ### Tech stack used:
 
-Nuxt3, Vue3, Typescript and Primevue(UI Component)
+Nuxt3, Vue3, Typescript and TailwindCSS
 
 ### Hosting Provider
 
