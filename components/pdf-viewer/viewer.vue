@@ -3,7 +3,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 import { VuePDF, usePDF } from '@tato30/vue-pdf'
 
 const page = ref(1)
-const { pdf, pages } = usePDF('/resume.pdf')
+const { pdf, pages } = usePDF('/resume-04072026.pdf')
 const isMobile = ref(false)
 
 function checkMobile() {
