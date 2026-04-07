@@ -40,7 +40,7 @@ function closePdfViewer() {
       </p>
 
       <Modal
-        class="p-6 rounded-md w-full h-full 500 overflow-hidden"
+        class="p-6 rounded-md w-full h-full 500 overflow-hidden !bg-slate-300"
         ref="dialog-pdf"
         @onClose="closePdfViewer"
       >
