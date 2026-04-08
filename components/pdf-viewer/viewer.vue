@@ -8,7 +8,6 @@ const isMobile = ref(false)
 
 function checkMobile() {
   isMobile.value = window.innerWidth < 768
-  console.log('mobile', isMobile.value)
 }
 
 onMounted(() => {
@@ -30,7 +29,9 @@ function onNextPage() {
 </script>
 
 <template>
-  <div class="overflow-hidden h-[calc(100vh-110px)] w-full rounded-md">
+  <div
+    class="overflow-hidden h-[calc(100vh-110px)] max-w-full rounded-md mx-auto"
+  >
     <div class="text-center space-x-2 py-1 pb-6">
       <button
         class="bg-blue-500 py-1 px-3 rounded-md text-white text-xs"
@@ -47,7 +48,7 @@ function onNextPage() {
       </button>
     </div>
     <div
-      class="overflow-auto max-w-full h-[calc(100vh-180px)] 500 rounded-md md:w-[calc(100%-6rem)] mx-auto"
+      class="overflow-auto max-w-full h-[calc(100vh-180px)] 500 rounded-md mx-auto text-center mx-auto lg:flex lg:justify-center bg-slate-100"
     >
       <VuePDF :pdf="pdf" :page="page" :scale="1.6" />
     </div>
