@@ -25,7 +25,7 @@ function closePdfViewer() {
       class="resume -mt-20 sm:-mt-28 px-2 sm:p-6 lg:-mt-[6.5rem] lg:min-w-[1024px] lg:w-[1024px] lg:max-w-[1024px] lg:mx-auto lg:bg-slate-100 lg:rounded-md"
     >
       <Modal
-        class="p-6 rounded-md w-full h-full 500 overflow-hidden !bg-slate-300"
+        class="p-6 rounded-md w-full md:border-green-500 xl:w-[calc(100%-20rem)] h-full 500 overflow-hidden !bg-slate-300"
         ref="dialog-pdf"
         @onClose="closePdfViewer"
       >
